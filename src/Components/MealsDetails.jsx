@@ -40,9 +40,7 @@ const MealDetails = ({meal})=>{
                     </div>
                 </div>
                 <h3>Instructions:</h3>
-                <ul>{meal.strInstructions.split(/\d+\./).map((i)=>{
-                    return <li>{i.trim()}</li>})}
-                </ul>
+                <p>{meal.strInstructions}</p>
             </div>
         </div>
     );
