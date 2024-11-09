@@ -1,0 +1,30 @@
+.details{
+    background-color: cornsilk;
+    margin: 3%;
+    padding: 2%;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-bottom: 3%;
+}
+
+.details div img{
+    width: 30%;
+    height : auto;
+}
+.header div{
+    width: 60%;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    font-size: 15px;
+    margin: 0 3%;
+}
